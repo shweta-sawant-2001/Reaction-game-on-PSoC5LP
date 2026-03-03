@@ -114,6 +114,6 @@ This project demonstrates:
 ## Build Environment
 
 - PSoC Creator
-- Target device: CY8C58LP
+- Target device: CY8C5888LTQ-LP097
 - Language: Embedded C
 - RTOS: ERIKA Enterprise
