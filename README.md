@@ -81,12 +81,9 @@ Reusable hardware drivers:
 ---
 
 ## UART Output Example
-Round 1: 421 ms - OK
-Round 2: 512 ms - OK
-Round 3: Wrong Button
-
-
-
+- Round 1: 421 ms - OK
+- Round 2: 512 ms - OK
+- Round 3: Wrong Button
 ---
 
 ## Hardware Requirements
