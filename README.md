@@ -3,19 +3,21 @@
 ## Project Overview
 
 This project implements a real-time reaction game on the 
-[PSoC 5LP](https://www.infineon.com/cms/en/product/microcontroller/32-bit-psoc-arm-cortex-m/psoc-5lp/) platform.
+PSoC 5LP (CY8C58LP, ARM Cortex-M3) platform.
 
 The system measures user reaction time using hardware timers, displays random values on a 7-segment display, validates button inputs, and reports detailed statistics over UART.
 
-The application follows structured embedded software design principles:
+The application is developed using the ERIKA Enterprise RTOS and follows structured embedded software design principles:
 
 - Modular driver abstraction
 - Clear separation between application and hardware layers
 - Controlled variable scope
 - Use of typedefs defined in `global.h`
 - State-machine-driven execution inside the main loop
+- Deterministic task execution under RTOS scheduling
 
 The game runs for 10 rounds and outputs individual and total timing statistics.
+
 
 ---
 
@@ -113,4 +115,5 @@ This project demonstrates:
 
 - PSoC Creator
 - Target device: CY8C58LP
-- Language: C
+- Language: Embedded C
+- RTOS: ERIKA Enterprise
