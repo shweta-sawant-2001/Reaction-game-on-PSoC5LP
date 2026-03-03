@@ -67,23 +67,6 @@ Reusable hardware drivers:
 - Hardware resources configured in PSoC Creator
 - Peripheral integration handled through generated APIs
 
----
-
-## Game State Machine
-
-The game logic is implemented as a deterministic state machine:
-
-- `IDLE`
-- `WAIT_RANDOM_DELAY`
-- `SHOW_NUMBER`
-- `WAIT_FOR_INPUT`
-- `EVALUATE_RESULT`
-- `PRINT_RESULTS`
-- `RESET`
-
-This approach ensures predictable execution and clean extensibility.
-
----
 
 ## Technical Features
 
